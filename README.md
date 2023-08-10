@@ -19,7 +19,9 @@ To install `simpex`, use the following command:
 pip install simpex
 ```
 
-### Usage
+<br>
+
+### Usage | [wiki](../../wiki/Getting-Started#usage)
 
 #### Custom Method
 
