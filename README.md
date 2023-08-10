@@ -11,7 +11,7 @@
 
 <br>
 
-### Installation | [wiki](wiki/Getting-Started#installation)
+### Installation | [wiki](../../wiki/Getting-Started#installation)
 
 To install `simpex`, use the following command:
 
