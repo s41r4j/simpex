@@ -1,8 +1,6 @@
 # simpex 
 > Simplified Regex for Python
 
-![simpex Logo](path_to_logo_if_available.png)
-
 `simpex` is a Python library that simplifies the process of using regular expressions (`regex`). It provides both custom and built-in methods to generate regex patterns, making it easier for developers to match and manipulate text data. Whether you're working with emails, URLs, phone numbers, or other patterns, `simpex` has you covered.
 
 ### Features
@@ -11,7 +9,9 @@
 - Access external APIs for regex generation.
 - Choose from custom or built-in patterns.
 
-### Installation
+<br>
+
+### Installation | [wiki](wiki/Getting-Started#installation)
 
 To install `simpex`, use the following command:
 
