@@ -1,5 +1,5 @@
 # simpex 
-> Simplified Regex for Python
+> Simplified Regex
 
 `simpex` is a Python library that simplifies the process of using regular expressions (`regex`). It provides both custom and built-in methods to generate regex patterns, making it easier for developers to match and manipulate text data. Whether you're working with emails, URLs, phone numbers, or other patterns, `simpex` has you covered.
 
@@ -25,7 +25,7 @@ pip install simpex
 
 #### Custom Method
 
-Given a sample dataset with a minimum of 2 values, the custom method returns a regex pattern.
+- Given a sample dataset with a minimum of 3 & maximun of 100 values, the custom method returns your desired regex pattern.
 
 ```python
 import simpex
@@ -34,12 +34,13 @@ data_set = ['example@gmail.com',
             'test@yahoo.com',
             'admin@proton.me']
 
-pattern = simpex.generate_pattern(data_set)
+pattern = simpex.regex(data_set)
 ```
 
 #### Built-in Method
 
-Use built-in methods to obtain regex patterns. Check all available built-in methods in the [wiki](wiki_link).
+- Use built-in methods to obtain regex patterns. Check all available built-in methods in the [wiki](wiki_link).
+- Available Built-in Patterns: `email`, `phone`, `url`, `ipv4`, `ipv6`, `mac`, `credit_card`
 
 ```python
 import simpex
@@ -47,18 +48,7 @@ import simpex
 pattern = simpex.patterns('email')
 ```
 
-### Available Built-in Patterns
 
-- `email`
-- `phone`
-- `url`
-- `ipv4`
-- `ipv6`
-- `mac`
-- `credit_card`
-- `date`
-- `hex_color`
-- `html_tag`
 
 ### API Integration
 
