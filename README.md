@@ -23,7 +23,7 @@ pip install simpex
 
 ## Usage | [wiki](../../wiki/Getting-Started#usage)
 
-There are three steps between you and regex pattern you want! Follow 
+There are three steps between you and regex pattern you want! Follow below instatructions as _quick guide_, please chak out _[wiki]()_ for comprehensive usage with examples.  
 
 ### [step 1]: Importing
 - Use the following import statement:
