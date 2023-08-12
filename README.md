@@ -45,6 +45,7 @@ pattern = email.regex() # calling custom method
 ```
 - check [wiki](), for all avaliable methods
 
+> output: `print(pattern)` -> `^[a-z]+\@[a-z]+\.[a-z]*$` 
 <br>
 
 
