@@ -23,20 +23,22 @@ pip install simpex
 
 ## Usage | [wiki](../../wiki/Getting-Started#usage)
 
-### [step 1]: importing
+There are three steps between you and regex pattern you want! Follow 
+
+### [step 1]: Importing
 - Use the following import statement:
 ```python
 from simpex.simpex import simpex
 ```
 
-### [step 2]: creating object
+### [step 2]: Creating Object
 - `simpex` is a class, so we need to __create an object__ with required parametric data
 ```python
 email = simpex(['test@mail.com', 'admin@email.com', 'example@mail.co'])
 ```
 - check [wiki](), for all available parameters
 
-### [step 3]: calling method
+### [step 3]: Calling Method
 - Call your desired method from `custom`, `build-in` or `api-based` to get regex pattern
 ```
 pattern = email.regex() # calling custom method
@@ -45,48 +47,6 @@ pattern = email.regex() # calling custom method
 
 <br>
 
-#### Custom Method
-
-- Given a sample dataset with a minimum of 3 & maximun of 100 values, the custom method returns your desired regex pattern.
-
-```python
-import simpex
-
-data_set = ['example@gmail.com',
-            'test@yahoo.com',
-            'admin@proton.me']
-
-pattern = simpex.regex(data_set)
-```
-
-#### Built-in Method
-
-- Use built-in methods to obtain regex patterns. Check all available built-in methods in the [wiki](wiki_link).
-- Available Built-in Patterns: `email`, `phone`, `url`, `ipv4`, `ipv6`, `mac`, `credit_card`
-
-```python
-import simpex
-
-pattern = simpex.patterns('email')
-```
-
-
-
-### API Integration
-
-`simpex` integrates with external APIs to enhance regex pattern generation.
-
-| API  | Endpoint                                  | Required Data Type | Outputs         |
-| ---- | ----------------------------------------- | ------------------ | --------------- |
-| 0    | information (this only)                   | none / null        | info - str      |
-| 1    | [https://saasbase.dev/tools/regex-generator](https://saasbase.dev/tools/regex-generator) | english to regex (ai) - str | single - str   |
-| 2    | [https://www.autoregex.xyz](https://www.autoregex.xyz) | english to regex (ai) - str | single - str   |
-| 3    | [https://regex.murfasa.com](https://regex.murfasa.com) | english to regex (ai) - str | single - str   |
-| 4    | [https://regex.ai](https://regex.ai)       | multiple data set | multiple - list |
-
-### Example
-
-For instance, using the `email` built-in method or the custom method will return the following regex pattern: `^[a-zA-Z0-9]+@[a-zA-Z0-9]+\.[a-zA-Z0-9]*`.
 
 ### Contributing
 
