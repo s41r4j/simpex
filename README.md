@@ -1,6 +1,6 @@
 <h1 align=center>simpex</h1>
 
-`simpex` is a python library that simplifies the process of using regular expressions (`regex`). It provides both custom and built-in methods to generate regex patterns, making it easier for developers to match and manipulate text data. Whether you're working with emails, URLs, phone numbers, or other patterns, `simpex` has you covered.
+`simpex` is a python library that simplifies the process of using regular expressions (`regex`). It provides custom, built-in and api-based methods to generate regex patterns, making it easier for developers to match and manipulate text data. Whether you're working with emails, URLs, phone numbers, or other patterns, `simpex` has you covered.
 
 #### _Features_:
 - Simplify regex usage in Python.
