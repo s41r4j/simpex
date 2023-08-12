@@ -31,14 +31,14 @@ from simpex.simpex import simpex
 ```
 
 ### 2. Creating Object
-- `simpex` is a class, so we need to __create an object__ with required parametric data (check [wiki](), for all available parameters)
+- `simpex` is a class, so we need to __create an object__ with required parametric data (check [wiki](../../wiki/usage#custom-method), for all available parameters)
 ```python
 # creating an onject named `email`
 email = simpex(['test@mail.com', 'admin@email.com', 'example@mail.co'])
 ```
 
 ### 3. Calling Method 
-- Call your desired method from `custom`, `build-in` or `api-based` to get regex pattern (check [wiki](), for all avaliable methods)
+- Call your desired method from [`custom*`](../../wiki/usage#custom-method), [`built-in`](../../wiki/usage#built-in-method) or [`api-based`](../../wiki/usage#api-method) to get regex pattern (check [wiki](../../wiki/usage#methods), for all avaliable methods)
 ```python
 # calling custom method
 pattern = email.regex()
