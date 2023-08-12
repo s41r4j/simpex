@@ -10,7 +10,7 @@
 
 <br>
 
-## Installation | [wiki](../../wiki/Getting-Started#installation)
+## Installation | [wiki](../../wiki/installation)
 
 To install `simpex`, use the following command:
 
@@ -20,7 +20,7 @@ pip install simpex
 
 <br>
 
-## Usage | [wiki](../../wiki/Getting-Started#usage)
+## Usage | [wiki](../../wiki/usage)
 
 There are three steps between you and regex pattern you want! Follow below instatructions as _quick guide_, please chak out _[wiki]()_ for comprehensive usage with examples.  
 
