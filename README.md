@@ -25,34 +25,36 @@ pip install simpex
 
 There are three steps between you and regex pattern you want! Follow below instatructions as _quick guide_, please chak out _[wiki]()_ for comprehensive usage with examples.  
 
-### [step 1]: Importing
+### 1) Importing
 - Use the following import statement:
 ```python
 from simpex.simpex import simpex
 ```
 
-### [step 2]: Creating Object
-- `simpex` is a class, so we need to __create an object__ with required parametric data
+### 2) Creating Object
+- `simpex` is a class, so we need to __create an object__ with required parametric data (check [wiki](), for all available parameters)
 ```python
+# creating an onject named `email`
 email = simpex(['test@mail.com', 'admin@email.com', 'example@mail.co'])
 ```
-- check [wiki](), for all available parameters
 
-### [step 3]: Calling Method
-- Call your desired method from `custom`, `build-in` or `api-based` to get regex pattern
+### 3) Calling Method 
+- Call your desired method from `custom`, `build-in` or `api-based` to get regex pattern (check [wiki](), for all avaliable methods)
+```python
+# calling custom method
+pattern = email.regex()
 ```
-pattern = email.regex() # calling custom method
-```
-- check [wiki](), for all avaliable methods
 
-> output: `print(pattern)` -> `^[a-z]+\@[a-z]+\.[a-z]*$` 
-<br>
+> output: `print(pattern)` -> `^[a-z]+\@[a-z]+\.[a-z]*$`
 
 
-### Contributing
+<br><hr>
 
-Contributions are welcome! Please follow the guidelines in [CONTRIBUTING.md](CONTRIBUTING.md) to contribute to the project.
+## License & Contributing
+- This is an __open source project__, licensed under the [MIT License](LICENSE).
+- __All contributions are welcome!__
+  - To contribute to `simpex` project, fork the repository, make your changes, and submit a pull request.
+  - Be sure to follow our coding style and include tests for any new functionality.
+  - When submitting a pull request, please provide a clear description of your changes.
+  - Your contributions help improve the project for everyone.
 
-### License
-
-This project is licensed under the [MIT License](LICENSE).
