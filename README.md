@@ -6,7 +6,7 @@
 - Simplify regex usage in Python.
 - Generate regex patterns effortlessly.
 - Access external APIs for regex generation.
-- Choose from custom or built-in patterns.
+- Choose from built-in patterns.
 
 <br>
 
